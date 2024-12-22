@@ -10,6 +10,8 @@ if [ "$package" = "liteloader" ]; then
     sed -i "s|# Last updated: .*\.|# Last updated: $(date +%F)\.|g" ./package/sources.nix
     sed -i "s|LiteLoaderUrl = \".*\";|LiteLoaderUrl = \"$amd64_url\";|g" ./package/sources.nix
     sed -i "s|LiteLoaderHash = \".*\";|LiteLoaderHash = \"$amd64_hash\";|g" ./package/sources.nix
+    sed -i "s|LiteLoaderUrl = \".*\";|LiteLoaderUrl = \"$arm64_url\";|g" ./package/sources.nix
+    sed -i "s|LiteLoaderHash = \".*\";|LiteLoaderHash = \"$arm64_hash\";|g" ./package/sources.nix
 fi
 
 if [ "$package" = "qq" ]; then
