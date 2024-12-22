@@ -1,5 +1,8 @@
-name: build
-on: [workflow_dispatch]
+name: build Image
+on:
+  push:
+    branches:
+      - "main"
 
 jobs:
   build:
