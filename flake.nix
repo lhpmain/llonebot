@@ -30,6 +30,7 @@
     packages.dockerImage = pkgs.dockerTools.buildImage {
       name = "llonebot";
       tag = "latest";
+      OS/ARCH = "linux/arm64";
       copyToRoot = pkgs.buildEnv {
         name = "llonebot-env";
         paths = [ common.llonebot pkgs.coreutils];
