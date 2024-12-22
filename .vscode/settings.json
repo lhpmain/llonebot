@@ -1,0 +1,28 @@
+{
+  "cSpell.words": [
+    "bubblewrap",
+    "bwrap",
+    "clearenv",
+    "coreutils",
+    "dbus",
+    "dunst",
+    "fetchurl",
+    "liteloader",
+    "messagebus",
+    "nameserver",
+    "nixpkgs",
+    "nofork",
+    "pkgs",
+    "pname",
+    "resolv",
+    "rfbport",
+    "runsvdir",
+    "srcs",
+    "stdenv",
+    "tmpfs",
+    "vncpasswd",
+    "vncpassword",
+    "xorg",
+    "xorgserver"
+  ]
+}
